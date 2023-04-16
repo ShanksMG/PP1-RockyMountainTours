@@ -20,6 +20,7 @@ h1, h2 {
 /*navbar*/
 #navbar {
     height: 75px;
+    background-color: rgba(7, 7, 7, 0);
 }
 
 #menu {
@@ -56,4 +57,64 @@ h1, h2 {
 
 .active {
     border-bottom: 1px rgb(187, 3, 3) solid;
+}
+/*hero image*/
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-andre-furtado-2931062\ \(1\).jpg) no-repeat;
+   
+}
+/*scrolling text box. credit:Simple text scroller by http://roel.shoikan.nl Roël Couwenberg.*/
+.card {
+    position: fixed;
+    background-color: #F8F8F8;
+    border-radius: 1.5em;
+    padding: 2.6em 3.8em;
+    cursor: pointer;
+    top: 22%;
+    transform: translate(-50%, -50%);
+    left: 80%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 
+      0 8px 8px rgba(0, 0, 0, 0.1),
+      0 16px 16px rgba(0, 0, 0, 0.1), 
+      0 32px 32px rgba(0, 0, 0, 0.15),
+      0 64px 64px rgba(0, 0, 0, 0.15);
+}
+
+.card h1 {
+    font-family: 'Radio Canada', sans-serif;
+    text-transform: uppercase;
+    color: rgb(32, 32, 32);
+}
+
+.scroller {
+    height: 1.2em;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+    width: 10em;
+}
+
+.scroller > span {
+    position: absolute;
+    top: 0;
+    animation: slide 10s infinite;
+    font-weight: bold;
+    
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
 }
