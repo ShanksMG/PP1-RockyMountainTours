@@ -63,11 +63,10 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url(../images/pexels-andre-furtado-2931062\ \(1\).jpg) no-repeat;
-   
 }
 /*scrolling text box. credit:Simple text scroller by http://roel.shoikan.nl Roël Couwenberg.*/
 .card {
-    position: fixed;
+    position: absolute;
     background-color: #F8F8F8;
     border-radius: 1.5em;
     padding: 2.6em 3.8em;
@@ -117,4 +116,103 @@ h1, h2 {
   75% {
     top: -3.6em;
   }
+}
+/*destinations*/
+/* #destinations{
+    
+    text-align: center;
+    vertical-align: text-bottom;
+    font-size: 150%;
+}
+
+#destinations-scroll{
+    background-color: rgba(248, 248, 248, 0.911);
+    scroll-snap-type: x mandatory;
+    border: 2px rgb(187, 3, 3) solid;
+}
+
+#destinations-scroll div{
+    font-size: 110%;
+    text-transform: none;
+    vertical-align: text-bottom;
+    border: 1px rgb(187, 3, 3) solid;
+    border-radius: 50px;
+    padding: 2px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 
+      0 8px 8px rgba(0, 0, 0, 0.1),
+      0 16px 16px rgba(0, 0, 0, 0.1), 
+      0 32px 32px rgba(0, 0, 0, 0.15),
+      0 64px 64px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    float: left;
+}
+*/
+#destinations {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*
+#destinations-scroll{
+    position: relative;
+}
+
+#kelowna{
+    height: 300px;
+    width: 33%;
+    background: url(../images/kolby-milton-3g10gbSdCPI-unsplash\ \(1\).jpg) center center no-repeat;
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    display: inline-block;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 
+      0 8px 8px rgba(0, 0, 0, 0.1),
+      0 16px 16px rgba(0, 0, 0, 0.1), 
+      0 32px 32px rgba(0, 0, 0, 0.15),
+      0 64px 64px rgba(0, 0, 0, 0.15);
+    padding-top: 20px;
+}
+
+#destinations-text {
+    position: relative;
+    background-color: rgb(252, 155, 29);
+    align-self: flex-end;
+    font-size: 75%;
+    width: 100%;
+}
+
+#destinations-text h3 {
+    text-transform: uppercase;
+}
+
+#banff{
+    height: 300px;
+    width: 33%;
+    background: url(../images/louis-paulin-4Q10JVnBhr4-unsplash\ \(2\).jpg) center center no-repeat;
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+    float: center;
+    display: inline-block;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 
+      0 8px 8px rgba(0, 0, 0, 0.1),
+      0 16px 16px rgba(0, 0, 0, 0.1), 
+      0 32px 32px rgba(0, 0, 0, 0.15),
+      0 64px 64px rgba(0, 0, 0, 0.15);
+    padding-top: 20px;
+}
+*/
+
+.destinations {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.towns{
+    padding-top: 50px;
+    width: 25%;
+    height: 500px;
+    float: left;
 }
